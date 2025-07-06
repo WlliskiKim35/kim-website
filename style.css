@@ -1,24 +1,83 @@
 
+/* Reset & Base Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    margin: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff5f8; /* very soft pink background */
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 15px;
-    padding: 0;
+
+/* Header & Navigation */
+header {
+  background-color: #ff8a65; /* warm orange */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
-nav ul li a {
-    text-decoration: none;
-    background-color: #6a5acd;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 4px;
+
+nav {
+  background-color: #ffd8c1; /* soft orange-pink */
+  text-align: center;
+  padding: 10px 0;
 }
+
+nav a {
+  color: #0077cc; /* calming blue */
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff4081; /* vibrant pink for hover */
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+h2, h3 {
+  color: #ff4081; /* bright pink accent */
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Images */
 img {
-    max-width: 300px;
-    margin: 10px;
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 8px;
+  border: 2px solid #ffd8c1; /* soft orange border */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #0077cc; /* blue */
+  color: white;
+  margin-top: 40px;
 }
