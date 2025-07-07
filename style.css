@@ -55,6 +55,12 @@ h2, h3 {
   color: #ff4081; /* bright pink accent */
 }
 
+/* Paragraph */
+
+p {
+  color: blue;
+  font: 14px;
+
 /* Lists */
 ul {
   padding-left: 20px;
